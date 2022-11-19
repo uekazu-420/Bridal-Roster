@@ -4,14 +4,20 @@
 現在の職場がC#を使用しているためC#で作成しています。
 <br>
 <br>
+## Contents
+1.[About](https://github.com/uekazu-420/Bridal-Roster/edit/main/README.md#about)<br>
+2.[screenshot](https://github.com/uekazu-420/Bridal-Roster/edit/main/README.md#screenshot)<br>
 <br>
+<br>
+<br>
+
 ## About
 このソフトを使えば、式に出席する人のリストをまとめることが簡単にできます。<br>
 また、住所の有無や新郎新婦ごとの絞り込みのボタン一つで絞り込みことができ、手間を省くことができます。
 <br>
 <br>
 <br>
-## screenshot
+## Screenshot
 <br>
 
 ・メイン画面（表示ボタンをクリックした時、全データが表示されます）
@@ -35,4 +41,24 @@
 <br>
 
 ・入力画面（メイン画面では、入力や削除できないようにしています（誤記入防止のため））
+
 ![入力画面](https://user-images.githubusercontent.com/118586248/202858866-d3f359fb-e11f-43dc-a94c-737d8b6d6ab1.png)
+<br>
+<br>
+<br>
+※今後も必要な機能があれば随時更新していきます
+<br>
+<br>
+<br>
+
+## Caution
+・使用可能OS：Windows（.NET Framework を使用）<br>
+・DB：SQLiteを使用<br>
+
+<br>
+<br>
+<br>
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)<br>
