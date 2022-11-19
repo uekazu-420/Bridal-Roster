@@ -17,3 +17,22 @@
 ・メイン画面（表示ボタンをクリックした時、全データが表示されます）
 
 ![メイン画面](https://user-images.githubusercontent.com/118586248/202858190-2ce4eb9d-cff8-41df-84a7-c2fb4d160fdc.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+・絞り込み画面（ボタン一つで表示したい内容を絞り込みことができます）
+
+![絞り込み画面](https://user-images.githubusercontent.com/118586248/202858722-69d9b81d-ce43-4678-ae67-2b9433ae6b6b.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+・入力画面（メイン画面では、入力や削除できないようにしています（誤記入防止のため））
+![入力画面](https://user-images.githubusercontent.com/118586248/202858866-d3f359fb-e11f-43dc-a94c-737d8b6d6ab1.png)
