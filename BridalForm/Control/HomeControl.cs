@@ -76,7 +76,7 @@ namespace BridalForm.Control
         //データの表示
         private void dataload()
         {
-            con = new SQLiteConnection(@"DataSource = ..\..\..\data\bridal.db");
+            con = new SQLiteConnection(@"data source =" + _source.bridal) ;
             con.Open();
 
             //空のテーブルを作ります。

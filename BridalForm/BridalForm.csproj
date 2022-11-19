@@ -92,6 +92,7 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="_source.cs" />
     <EmbeddedResource Include="Control\InputControl.resx">
       <DependentUpon>InputControl.cs</DependentUpon>
     </EmbeddedResource>

@@ -203,7 +203,7 @@ namespace BridalForm.Control
         //テーブルを作成
         void CreateTable()
         {
-            using (var cn = new SQLiteConnection(@"DataSource = ..\..\..\data\bridal.db"))
+            using (var cn = new SQLiteConnection(@"data source =" + _source.bridal))
             {
                 cn.Open();
 
@@ -227,7 +227,7 @@ namespace BridalForm.Control
         //データの表示
         private void dataload()
         {
-            con = new SQLiteConnection(@"DataSource = ..\..\..\data\bridal.db");
+            con = new SQLiteConnection(@"data source =" + _source.bridal);
             con.Open();
 
             //空のテーブルを作ります。
@@ -273,7 +273,7 @@ namespace BridalForm.Control
         //データを追加
         void Insert(string a, string b, string c, string d, string e, string f, string g, string h )
         {
-            using (var cn = new SQLiteConnection(@"DataSource = ..\..\..\data\bridal.db"))
+            using (var cn = new SQLiteConnection(@"data source =" + _source.bridal))
             {
                 cn.Open();
 
@@ -289,7 +289,7 @@ namespace BridalForm.Control
         //データを削除
         void Delete(int id)
         {
-            using (var cn = new SQLiteConnection(@"DataSource = ..\..\..\data\bridal.db"))
+            using (var cn = new SQLiteConnection(@"data source =" + _source.bridal))
             {
                 cn.Open();
 
@@ -444,7 +444,7 @@ namespace BridalForm.Control
         private void GetGendeList()
         {
             // XML読み込み
-            XElement xml = XElement.Load(@"..\..\..\data\gender.xml");
+            XElement xml = XElement.Load(_source.gender);
 
             // user.nameの値を取得
             IEnumerable<String> names = from item in xml.Elements("sends") select item.Value;
