@@ -7,6 +7,8 @@
 ## Contents
 1.[About](https://github.com/uekazu-420/Bridal-Roster/edit/main/README.md#about)<br>
 2.[screenshot](https://github.com/uekazu-420/Bridal-Roster/edit/main/README.md#screenshot)<br>
+3.[Caution](https://github.com/uekazu-420/Bridal-Roster/edit/main/README.md#caution)<br>
+4.[License](https://github.com/uekazu-420/Bridal-Roster/edit/main/README.md#license)<br>
 <br>
 <br>
 <br>
